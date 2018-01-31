@@ -3,13 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>Social Data &amp; Visualizations</title>
-  <script type="text/javascript" src="d3/d3.v3.js"></script>
-  <script type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="d3/d3.js"></script>
 </head>
+
   <body>
-    <h1>Social Data &amp; Visualizations</h1>
-    <p>
-      This is a test page to work with d3js.
-    </p>
+    <div class="header">
+        <h1>Social Data &amp; Visualizations</h1>
+    </div>
+
   </body>
+
+  <script type="text/javascript">
+    d3.select("body")
+      .append("p")
+      .text("New paragraph!");
+  </script>
+
 </html>
