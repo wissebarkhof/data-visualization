@@ -18,3 +18,17 @@ h1 {
   margin-top: 20px;
   background-color: #dedede;
 }
+
+.rectangle-test {
+  /* stroke-width: 2;
+  stroke: grey; */
+}
+
+
+div.bar {
+  display: inline-block;
+  width: 20px;
+  height: 75px; /* We'll override height later */
+  background-color: teal;
+  margin-right: 2px;
+}
